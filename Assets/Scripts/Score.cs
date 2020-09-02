@@ -23,9 +23,9 @@ public class Score : MonoBehaviour
 
     public void WinnerText()
     {
-        ChangeScene.SetActive(true);
         Text.SetActive(true);
         Text.GetComponent<UnityEngine.UI.Text>().text = $"Ты набрал: {UserScore} из {MaxScore}";
+        ChangeScene.SetActive(true);
     }
 
     
